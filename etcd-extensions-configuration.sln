@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31423.177
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{47F169FE-8FAA-4D4A-9C6A-2FA2B4DC9BF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{D14BC84D-636A-4C2A-8B2A-A871802F179F}"
+	ProjectSection(SolutionItems) = preProject
+		assets\etcd-extensions-logo.png = assets\etcd-extensions-logo.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sample", "sample", "{56AE56C8-B0C7-457F-A251-70F5BF99C3C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{19F5BCFE-713C-469C-B747-48657720B029}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etcd.Extensions.Configuration", "src\Etcd.Extensions.Configuration\Etcd.Extensions.Configuration.csproj", "{DADBE407-6905-48F0-A85F-F6FD6CE0FD31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etcd.Extensions.Configuration.Sample", "samples\Etcd.Extensions.Configuration.Sample\Etcd.Extensions.Configuration.Sample.csproj", "{0BD121F9-1EE1-4BF8-81B4-D29D6159C0A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Etcd.Extensions.Configuration.Tests", "test\Etcd.Extensions.Configuration.Tests\Etcd.Extensions.Configuration.Tests.csproj", "{A53441E1-737D-476E-B4D5-1706EA59D359}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DADBE407-6905-48F0-A85F-F6FD6CE0FD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DADBE407-6905-48F0-A85F-F6FD6CE0FD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DADBE407-6905-48F0-A85F-F6FD6CE0FD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DADBE407-6905-48F0-A85F-F6FD6CE0FD31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BD121F9-1EE1-4BF8-81B4-D29D6159C0A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD121F9-1EE1-4BF8-81B4-D29D6159C0A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD121F9-1EE1-4BF8-81B4-D29D6159C0A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD121F9-1EE1-4BF8-81B4-D29D6159C0A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53441E1-737D-476E-B4D5-1706EA59D359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53441E1-737D-476E-B4D5-1706EA59D359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53441E1-737D-476E-B4D5-1706EA59D359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53441E1-737D-476E-B4D5-1706EA59D359}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DADBE407-6905-48F0-A85F-F6FD6CE0FD31} = {47F169FE-8FAA-4D4A-9C6A-2FA2B4DC9BF4}
+		{0BD121F9-1EE1-4BF8-81B4-D29D6159C0A3} = {56AE56C8-B0C7-457F-A251-70F5BF99C3C1}
+		{A53441E1-737D-476E-B4D5-1706EA59D359} = {19F5BCFE-713C-469C-B747-48657720B029}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2530457B-6720-4C64-8F6A-2D00706B75B2}
+	EndGlobalSection
+EndGlobal
